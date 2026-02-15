@@ -1,0 +1,33 @@
+{
+  "name": "live-building",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajkraus04/live-building.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ajkraus04/live-building/issues"
+  },
+  "homepage": "https://github.com/ajkraus04/live-building#readme",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.74.0",
+    "@types/node": "^25.2.2",
+    "chokidar": "^5.0.0",
+    "dotenv": "^17.2.4",
+    "eventemitter3": "^5.0.4",
+    "tsx": "^4.21.0",
+    "twitter-api-v2": "^1.29.0",
+    "typescript": "^5.9.3"
+  }
+}
